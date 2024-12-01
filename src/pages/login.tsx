@@ -13,7 +13,7 @@ const Login = () => {
       return;
     }
     try {
-      const response = await fetch('https://lionfish-app-igrly.ondigitalocean.app/auth/login', {
+      const response = await fetch('https://securewrap-1621182990b0.herokuapp.com/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password }),

@@ -16,7 +16,7 @@ const Profile = () => {
       return;
     }
     try {
-      const response = await fetch('https://lionfish-app-igrly.ondigitalocean.app/auth/fetch-users', {
+      const response = await fetch('https://securewrap-1621182990b0.herokuapp.com/api/user-dashboard', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
